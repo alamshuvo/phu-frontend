@@ -25,7 +25,7 @@ export const sidebarItemsGenerator = (items: TUserPath[], role: string) => {
           }
         }),
       });
-    }
+    }   
 
     return acc;
   }, []);
